@@ -45,6 +45,7 @@
 		3A48B1B32A340AD200AE4A56 /* asciibarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = asciibarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A48B1B72A340AD200AE4A56 /* asciibarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asciibarUITests.swift; sourceTree = "<group>"; };
 		3A48B1B92A340AD200AE4A56 /* asciibarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asciibarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3A48B1C82A348CE400AE4A56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +96,7 @@
 		3A48B19A2A340ACE00AE4A56 /* asciibar */ = {
 			isa = PBXGroup;
 			children = (
+				3A48B1C82A348CE400AE4A56 /* Info.plist */,
 				3A48B19B2A340ACE00AE4A56 /* asciibarApp.swift */,
 				3A48B19D2A340ACE00AE4A56 /* ContentView.swift */,
 				3A48B19F2A340AD200AE4A56 /* Assets.xcassets */,
@@ -424,6 +426,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = asciibar/Info.plist;
+				INFOPLIST_KEY_LSUIElement = NO;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,6 +455,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = asciibar/Info.plist;
+				INFOPLIST_KEY_LSUIElement = NO;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
