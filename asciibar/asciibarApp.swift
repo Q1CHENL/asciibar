@@ -9,6 +9,7 @@ struct AsciiBar: App {
                 HStack {
                     Text(" ASCII Table")
                         .font(.system(size: 19, weight: .regular, design: .monospaced))
+                    Spacer()
                     Button(action: {
                         NSApplication.shared.terminate(self)
                     }) {

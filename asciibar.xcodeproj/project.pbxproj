@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A03CBA52A36781F00D878CF /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A03CBA42A36781F00D878CF /* screenshot.png */; };
 		3A48B19C2A340ACE00AE4A56 /* asciibarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A48B19B2A340ACE00AE4A56 /* asciibarApp.swift */; };
-		3A48B19E2A340ACE00AE4A56 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A48B19D2A340ACE00AE4A56 /* ContentView.swift */; };
 		3A48B1A02A340AD200AE4A56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A48B19F2A340AD200AE4A56 /* Assets.xcassets */; };
 		3A48B1A32A340AD200AE4A56 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A48B1A22A340AD200AE4A56 /* Preview Assets.xcassets */; };
 		3A48B1AE2A340AD200AE4A56 /* asciibarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A48B1AD2A340AD200AE4A56 /* asciibarTests.swift */; };
@@ -34,9 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A03CBA42A36781F00D878CF /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = screenshot.png; path = ../../../Desktop/screenshot.png; sourceTree = "<group>"; };
 		3A48B1982A340ACE00AE4A56 /* asciibar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = asciibar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A48B19B2A340ACE00AE4A56 /* asciibarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = asciibarApp.swift; sourceTree = "<group>"; };
-		3A48B19D2A340ACE00AE4A56 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3A48B19F2A340AD200AE4A56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A48B1A22A340AD200AE4A56 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3A48B1A42A340AD200AE4A56 /* asciibar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = asciibar.entitlements; sourceTree = "<group>"; };
@@ -98,8 +98,8 @@
 			children = (
 				3A48B1C82A348CE400AE4A56 /* Info.plist */,
 				3A48B19B2A340ACE00AE4A56 /* asciibarApp.swift */,
-				3A48B19D2A340ACE00AE4A56 /* ContentView.swift */,
 				3A48B19F2A340AD200AE4A56 /* Assets.xcassets */,
+				3A03CBA42A36781F00D878CF /* screenshot.png */,
 				3A48B1A42A340AD200AE4A56 /* asciibar.entitlements */,
 				3A48B1A12A340AD200AE4A56 /* Preview Content */,
 			);
@@ -236,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A48B1A32A340AD200AE4A56 /* Preview Assets.xcassets in Resources */,
+				3A03CBA52A36781F00D878CF /* screenshot.png in Resources */,
 				3A48B1A02A340AD200AE4A56 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,7 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A48B19E2A340ACE00AE4A56 /* ContentView.swift in Sources */,
 				3A48B19C2A340ACE00AE4A56 /* asciibarApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
